@@ -1,0 +1,5 @@
+grade = float(raw_input("enter the grade you got on a quiz"))
+if(grade >= 90.0):
+	print("you got an A")
+if(grade >= 80.0 and grade < 90.0):
+	print("you got a B")
