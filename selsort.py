@@ -1,0 +1,11 @@
+import min
+
+numbers = [random.randint(1,10) for x in range (10)]
+
+def selectionsort(numbers):
+	smallest = min.min(numbers)
+	ordered = []
+	for(n in numbers):
+		print(numbers)
+
+			return ordered
